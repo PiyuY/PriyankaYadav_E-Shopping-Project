@@ -1,0 +1,20 @@
+server:
+  port: 9000
+
+  
+spring: 
+  cloud:
+    gateway:
+      routes:
+        - id: ewalletService
+          uri: http://localhost:9002
+          predicates:
+            - Path=/ewallet/**
+        - id: profileService
+          uri: http://localhost:9001
+          predicates:
+            - Path=/profile/**
+        - id: productService
+          uri: http://localhost:9003
+          predicates:
+           - Path=/products/**
