@@ -1,2 +1,3 @@
 # PriyankaYadav_E-Shopping-Project
-Spring Boot React Project
+Spring Boot, MongoDB, Api-Gateway, Payment-Gateway, Eureka, Swagger, Microservices 
+React with Redux 
